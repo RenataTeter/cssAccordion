@@ -1,0 +1,11 @@
+.accordion-input:checked~.accordion-content{
+  display: block;
+  .accordion-label:after{
+    content: ">";
+    transform: rotateZ(90deg);
+    
+  }
+}
+body{
+  background: #366363;
+}
